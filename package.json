@@ -1,0 +1,28 @@
+{
+  "name": "spotify-oauth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "Deepan Chakravarthi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "connect-mongo": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "form-data": "^3.0.0",
+    "mongoose": "^5.10.17",
+    "passport": "^0.4.1",
+    "passport-spotify": "^1.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
